@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#bg-img{
+    background-image: url(./images/hero-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* background-position: 80%; */
+    
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #96393B;
+}
+
+#logo h1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#logo{
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+#logo span{
+    color: #FF8D29;
+}
+#navbar-list{
+    display: flex;
+    margin-top: 20px;
+
+}
+#nav-list{
+    display: flex;
+    list-style: none;
+}
+.list-item{
+    margin-right: 30px;
+    margin-top: 19px;
+    cursor: pointer;
+}
+.list-item:hover{
+    color: #FF8D29;
+}
+.list-item a{
+    color: #EED6C6;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px
+}
+
+
+#search-btn{
+    width: 16px;
+    margin-right: 20px;
+    /* margin-top: 10px; */
+    
+}
+#reserve-btn{
+    padding: 15px 40px 15px 40px;
+    border-radius: 3px;
+    border: none;
+    background-color: #FF8D29;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+
+}
+#reserve-btn:hover{
+    background-color: black;
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+#search-div{
+    margin-top: 10px;
+}
+
+
+#body{
+    background-image: url(./images/hero-bg-shape.png);
+    width: 100%;
+    border: 3px solid;
+    top: 0px;
+    position: absolute;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#text-div{
+    top: 30%;
+    left: 10%;
+    width: 40%;
+    position: absolute;
+}
+#text-div h2{
+    font-family:cursive;
+    font-size: 40px;
+    font-style: italic;
+    color:#FF8D29;
+    margin-bottom: 30px; 
+}
+#text-div h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+
+}
+
+#text-div p{
+    color: white ;
+    font-size: 25px;
+}
+#text-div button{
+    padding: 15px 50px 15px 50px ;
+    border: none;
+    background-color:#FF8D29;
+    color: white;
+    font-weight: bolder;
+}
+#text-div button:hover{
+    background-color: black;
+    transition: 0.5s;
+}
+#img-div{
+    position: absolute;
+    right: 50px;
+    top: 20%;
+    width: 40%;
+}
+#img-div image{
+    width: 100%;
+    /* height: 100vh; */
+    /* z-index: 1; */
+
+}
